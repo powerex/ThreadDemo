@@ -11,10 +11,10 @@ public class Joined extends Thread {
         try {
             switch (nameT) {
                 case "First":
-                    timeout = 5_000;
+                    timeout = 5000;
                     break;
                 case  "Second":
-                    timeout = 1_000;
+                    timeout = 1000;
             }
             Thread.sleep(timeout);
             System.out.println("End thread " + nameT);

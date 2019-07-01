@@ -2,8 +2,8 @@ package ua.edu.npu.simple.synchro;
 
 public class BufferThread {
     static int counter = 0;
-    static StringBuffer s = new StringBuffer();
-//    static StringBuilder s = new StringBuilder();
+//    static StringBuffer s = new StringBuffer();
+    static StringBuilder s = new StringBuilder();
     public static void main(String args[ ]) throws InterruptedException {
         new Thread(() -> {
             synchronized (s) {
